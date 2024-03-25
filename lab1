@@ -1,0 +1,11 @@
+curl "https://lab1huwalli.openai.azure.com/openai/deployments/lab1huwalli-gpt35/chat/completions?api-version=2024-02-15-preview" \ 
+  -H "Content-Type: application/json" \  
+  -H "api-key: 05917cf689ab46f89d1eb8528ffc2af2" \  
+  -d "{  
+    \"messages\": [{\"role\":\"system\",\"content\":\"Hello, how can I help you today?\"},{\"role\":\"user\",\"content\":\"I'm looking for a good Italian restaurant in the area.\"}],  
+    \"max_tokens\": 50,  
+    \"temperature\": 0.5,  
+    \"top_p\": 1,  
+    \"frequency_penalty\": 0,  
+    \"presence_penalty\": 0  
+  }"  
